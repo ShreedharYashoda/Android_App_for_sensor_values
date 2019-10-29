@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tv_light"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hanate"
+    tools:context=".LightFragmentNew">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="133dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="51dp"
+        android:layout_marginRight="130dp"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/lightData_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="380dp"
+        android:layout_marginRight="30dp"
+        android:text="The light sensor is a device which converts light energy of various wavelengths from infrared to uv into the electrical energy(or to an electrical signal). This is the reason that they are named as photoelectric devices. They sense the light during this process so can be called as ‘photo sensors’."
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/know_button"
+        android:layout_width="1200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="600dp"
+        android:layout_marginRight="30dp"
+        android:text="Know More" />
+
+</RelativeLayout>

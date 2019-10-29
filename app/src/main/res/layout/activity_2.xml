@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/draw_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".Activity_2"
+    tools:openDrawer="start">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            android:elevation="4dp"
+            android:theme="@style/Base.ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+        <FrameLayout
+            android:id="@+id/fragment_cotainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/nav_header"
+        app:menu="@menu/drawer_menu" />
+
+    <!-- <RelativeLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:background="@drawable/background"
+         tools:context=".Activity_2">
+
+       <TextView
+         android:id="@+id/textView"
+         android:layout_width="200dp"
+         android:layout_height="wrap_content"
+         android:layout_alignParentStart="true"
+         android:layout_alignParentTop="true"
+         android:layout_marginStart="39dp"
+         android:layout_marginTop="25dp"
+         android:text="SENSORS"
+         android:textColor="@android:color/background_light"
+         android:textSize="25dp"
+         android:textStyle="bold" />
+
+       <Button
+         android:id="@+id/magnet_button"
+         android:layout_width="160dp"
+         android:layout_height="130dp"
+         android:layout_marginStart="217dp"
+         android:layout_marginTop="237dp"
+         android:background="@android:color/holo_red_light"
+         android:text="Magnetometer" />
+
+
+       <Button
+         android:id="@+id/prox_button"
+         android:layout_width="160dp"
+         android:layout_height="130dp"
+         android:layout_marginStart="27dp"
+         android:layout_marginTop="237dp"
+         android:background="@android:color/holo_green_light"
+         android:text="Proximity" />
+
+
+       <Button
+         android:id="@+id/accel_button"
+         android:layout_width="160dp"
+         android:layout_height="130dp"
+         android:layout_marginStart="217dp"
+         android:layout_marginTop="75dp"
+         android:background="@android:color/holo_purple"
+         android:text="Accelerometer" />
+
+
+
+       <Button
+         android:id="@+id/light_button"
+         android:layout_width="160dp"
+         android:layout_height="130dp"
+         android:layout_marginStart="27dp"
+         android:layout_marginTop="75dp"
+         android:background="@android:color/holo_red_dark"
+         android:text="Light" />
+
+
+       <Button
+         android:id="@+id/gyro_button"
+         android:layout_width="160dp"
+         android:layout_height="130dp"
+         android:layout_marginStart="27dp"
+         android:layout_marginTop="399dp"
+         android:background="@android:color/holo_orange_light"
+         android:text="Gyroscope" />
+
+       <Button
+         android:id="@+id/com_button"
+         android:layout_width="160dp"
+         android:layout_height="130dp"
+         android:layout_marginStart="217dp"
+         android:layout_marginTop="399dp"
+         android:background="#4B0082"
+         android:text="Compass" />
+
+       <Button
+         android:id="@+id/touch_button"
+         android:layout_width="160dp"
+         android:layout_height="130dp"
+         android:layout_marginStart="27dp"
+         android:layout_marginTop="560dp"
+         android:background="#ffff00"
+         android:text="Spin Game" />
+
+     </RelativeLayout>-->
+
+</android.support.v4.widget.DrawerLayout>

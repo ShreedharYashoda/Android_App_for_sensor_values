@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".AccelFragment">
+
+    <TextView
+        android:id="@+id/tv_az"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:layout_marginRight="130dp"
+        android:layout_marginTop="154dp"
+        android:textSize="20dp"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/tv_ay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="102dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginRight="130dp"
+        android:textSize="20dp"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/tv_ax"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginRight="130dp"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+         />
+
+
+    <TextView
+        android:id="@+id/lightData_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="470dp"
+        android:layout_marginRight="30dp"
+        android:text="An accelerometer is a sensor that measures the physical acceleration experienced by an object due to inertial forces or due to mechanical excitation."
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/know_button"
+        android:layout_width="1200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="600dp"
+        android:layout_marginRight="30dp"
+        android:text="Know More" />
+
+
+</RelativeLayout>
